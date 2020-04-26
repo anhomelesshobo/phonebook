@@ -23,6 +23,8 @@ namespace phonebook
         public MainWindow()
         {
             InitializeComponent();
+
+            DataContext = this;
         }
     }
 }
